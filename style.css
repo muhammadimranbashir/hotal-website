@@ -1,0 +1,94 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-image: url("pic.jpg");
+}
+.main{
+    width: 99%;
+}
+nav{
+    width: 100%;
+    background-color:black;
+    height: 80;
+    line-height: 80px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+ul{
+    margin: 0px;
+    transition: 0.5s ease;
+    margin-right:50px;
+}
+ul li{
+    float: left;
+    padding: 0px 50px;
+    list-style: none;
+}
+ul li a:{
+    color: red;
+}
+.header{
+    background-position: center;
+    height: 50vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#section{
+    padding: 25px 0 25px 0;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Verdana;
+    color:blue;
+} 
+#menu-row{
+    display: flex;
+    padding: 0 100px 0 100px;
+}
+#menu-col{
+    box-shadow: 2px 2px 2px #bbb;
+    border: 1px solid #bbb;
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}
+#menu-col h2{
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    font-family: cursive;
+}
+#image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid orange;
+}
+#image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+}
